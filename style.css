@@ -36,15 +36,26 @@ p{
     margin-left: 20px;
   }
   #nav-pc > a:link {
-    color: #0d0d0d;
+    color: #c05498;
   }
   #nav-pc > a:visited {
-    color: #0d0d0d;
+    color: #f38e13;
   }
   #nav-pc > a:hover {
-    color: #0d0d0d;
+    color: #c05498;
     text-decoration: underline;
   }
   #nav-pc > a:active {
-    color: #0d0d0d;
+    color: #f38e13;
+  }
+
+  /* フッター */
+  footer {
+    background-color: #b66eb2;
+    text-align: center;
+    padding: 80px 80px 30px 80px;
+  }
+  
+  #footer-logo {
+    margin-bottom: 30px;
   }
