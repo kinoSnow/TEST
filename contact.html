@@ -4,7 +4,7 @@
     <!-- ヘッダー -->
     <header>
         <!-- ロゴ -->
-        <a href="Introduction.html">contact画面</a>
+        <a href="contact.html">contact画面</a>
 
         <!--PC用ナビゲーション-->
         <nav id="nav-pc">
@@ -13,6 +13,54 @@
             <a href="contact.html">contact</a>
         </nav>
     </header>
+    <!-- お問い合わせフォーム -->
+       <section id="contact">
+        <h2 class="index-h2">CONTACT</h2>
+        <h3>contact</h3>
+        <form>
+            <div>
+                <div class="contact-heading">
+                  <label class="contact-label">お名前<span class="contact-span">
+                </div>
+                <div class="contact-form">
+                  <input type="text" name="name" placeholder="入力してください" class="contact-textbox">
+                </div>
+              </div>
+              <div>
+                <div class="contact-heading">
+                  <label class="contact-label">メールアドレス<span class="contact-span">必須</span></label>
+                </div>
+                <div>
+                  <input type="text" name="email" placeholder="入力してください" class="contact-textbox">
+                </div>
+              </div>
+              <div>
+                <div class="contact-heading">
+                  <label class="contact-label">電話番号</label>
+                </div>
+                <div>
+                  <input type="text" name="tel" placeholder="入力してください" class="contact-textbox">
+                </div>
+              </div>
+              <div>
+                <div class="contact-heading">
+                  <label class="contact-label">問合内容<span class="contact-span">
+                </div>
+                <div>
+                  <textarea class="contact-textarea" placeholder="入力してください" name="message"></textarea>
+                </div>
+              </div>
+              <div>
+                <div class="contact-heading">
+                  <label class="contact-label">ご希望方法<span class="contact-span">
+                </div>
+                <div>
+                  <input class="radiobutton" type="radio" value="tel" name="contact" checked><label>お電話</label>
+                  <input class="radiobutton" type="radio" value="mail" name="contact"><label>メール</label>
+                  <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label>
+                </div>
+              </div>
+              <input type="image" src="images/button-submit.png" alt="送信する">
     <footer>
         <div id="footer-logo">
           <img src="images/logo-sp.png" alt="SocialTech">
@@ -23,5 +71,7 @@
             <a href="contact.html">contact</a>
             <span id="copyright">&copy;2023 Mania!, Inc. All Rights Reserved. </span>
          </div>
+        </form>
+      </section>
 </body>
 </html>
