@@ -11,14 +11,14 @@ p{
  PC用のスタイル 
 =================*/
   /* 横幅設定 */
-  #Introduction>body {
+  body {
     max-width: 1080px;
     min-width: 960px;
     margin: 0 auto 0 auto;
   }
   
   /* ヘッダー */
-  #Introduction>header {
+  header {
     display: flex;
     justify-content: space-between;
   }
