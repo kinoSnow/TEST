@@ -87,17 +87,17 @@ p{
     text-decoration: none;
     margin-left: 20px;
   }
-  #nav-pc > a:link {
+  #contact>nav-pc > a:link {
     color: #c05498;
   }
-  #nav-pc > a:visited {
+  #contact>nav-pc > a:visited {
     color: #f38e13;
   }
-  #nav-pc > a:hover {
+  #contact>nav-pc > a:hover {
     color: #c05498;
     text-decoration: underline;
   }
-  #nav-pc > a:active {
+  #contact>nav-pc > a:active {
     color: #f38e13;
   }
 
