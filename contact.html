@@ -4,6 +4,7 @@
   <section id="contact">
     <!-- ヘッダー -->
     <header>
+      <link rel="stylesheet" href="style.css">
         <!-- ロゴ -->
         <a href="contact.html">contact画面</a>
 
@@ -23,7 +24,7 @@
                   <label class="contact-label">お名前<span class="contact-span">
                 </div>
                 <div class="contact-form">
-                  <input type="text" name="name" placeholder="入力してください" class="contact-textbox">
+                  <input type="text" id="input-name" name="name" placeholder="入力してください" class="contact-textbox">
                 </div>
               </div>
               <div>
@@ -60,7 +61,7 @@
                   <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label>
                 </div>
               </div>
-              <input type="image" src="images/button-submit.png" alt="送信する">
+              <input type="button" onclick="showMessage()" src="images/button-submit.png" value="送信する">
     <footer>
         <div id="footer-logo">
           <img src="images/logo-sp.png" alt="SocialTech">
@@ -73,5 +74,6 @@
          </div>
         </form>
       </section>
+    <script src="js/test.js"></script>
 </body>
 </html>
