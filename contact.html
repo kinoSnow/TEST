@@ -27,12 +27,12 @@
                   <input type="text" id="input-name" name="name" placeholder="入力してください" class="contact-textbox">
                 </div>
               </div>
-              <div>
+              <div> 
                 <div class="contact-heading">
-                  <label class="contact-label">メールアドレス<span class="contact-span">必須</span></label>
+                  <label class="contact-label">メールアドレス<span class="contact-span"></span></label>
                 </div>
                 <div>
-                  <input type="text" name="email" placeholder="入力してください" class="contact-textbox">
+                  <input type="text" id="input-mail" name="email" placeholder="入力してください" class="contact-textbox">
                 </div>
               </div>
               <div>
@@ -40,7 +40,7 @@
                   <label class="contact-label">電話番号</label>
                 </div>
                 <div>
-                  <input type="text" name="tel" placeholder="入力してください" class="contact-textbox">
+                  <input type="text" id="input-tel" name="tel" placeholder="入力してください" class="contact-textbox">
                 </div>
               </div>
               <div>
@@ -48,7 +48,7 @@
                   <label class="contact-label">問合内容<span class="contact-span">
                 </div>
                 <div>
-                  <textarea class="contact-textarea" placeholder="入力してください" name="message"></textarea>
+                  <textarea class="contact-textarea" id="input-text" placeholder="入力してください" name="message"></textarea>
                 </div>
               </div>
               <div>
@@ -61,7 +61,7 @@
                   <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label>
                 </div>
               </div>
-              <input type="button" onclick="showMessage()" src="images/button-submit.png" value="送信する">
+              <input id="output-btn" type="submit" onclick="return check()" src="images/button-submit.png" value="送信する">
     <footer>
         <div id="footer-logo">
           <img src="images/logo-sp.png" alt="SocialTech">
